@@ -11,4 +11,15 @@
         color: white;
         justify-content: center;
     }
+    .container{
+        padding-top: 100px !important;
+        padding: 0px;
+    }
+    .profile{
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .profile .information{
+        margin-top: 25px;
+    }
 }
