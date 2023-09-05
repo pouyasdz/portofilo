@@ -1,25 +1,74 @@
 @media only screen and (max-width: 600px) {
-    .navbar span{
-        display: none;
-    }
-    .navbar i{
-        background-color: #2b2d42;
-        padding: 10px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        color: white;
-        justify-content: center;
-    }
-    .container{
-        padding-top: 100px !important;
-        padding: 0px;
-    }
-    .profile{
-        flex-direction: column;
-        margin-top: 25px;
-    }
-    .profile .information{
-        margin-top: 25px;
-    }
+  .navbar span {
+    display: none;
+  }
+  .navbar i {
+    background-color: #2b2d42;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+  }
+  .container {
+    padding-top: 100px !important;
+    padding: 15px;
+    width: 100%;
+  }
+  .profile {
+    flex-direction: column;
+    margin-top: 25px;
+    height: 100%;
+    gap: 25px;
+  }
+  .profile img {
+    border-radius: 0;
+    width: 100% !important;
+  }
+  .profile .information {
+    margin-top: 25px;
+  }
+  .title h1 {
+    font-size: 32px;
+  }
+  .skills .skills-description{
+    flex-direction: column-reverse;
+  }
+  .about-detail{
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 80%;
+    padding-top: 100px;
+  }
+  .title h1 {
+    font-size: 25px;
+  }
+  .profile img{
+    width: 150px;
+  }
+  .about-description{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-detail{
+    width: 100%;
+  }
+  .skills .skills-description{
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+    padding-top: 100px;
+  }
+  .about-detail{
+    width: 50%;
+  }
 }
