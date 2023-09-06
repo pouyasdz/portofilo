@@ -2,7 +2,7 @@ export const demos = [
     {   
         id:Math.floor(Math.random() * 10000),
         title:"Cosmetics and hygiene e-commerce",
-        cover:"../public/demo/makeup.jpg",
+        cover:"../public/demo/makeup.webp",
         description:
         `in this project im use wordpress, 
         woodmart theme without any demo, post have strong seo, 
@@ -15,7 +15,7 @@ export const demos = [
     {   
         id:Math.floor(Math.random() * 10000),
         title:"script online shoop",
-        cover:"../public/demo/script.jpg",
+        cover:"../public/demo/script.webp",
         description:"wordpress online shop using astara theme with demo an customize",
         galery:[""],
         status:"pending",
@@ -24,7 +24,7 @@ export const demos = [
     {   
         id:Math.floor(Math.random() * 10000),
         title:"Organization react & express web application",
-        cover:"../public/demo/team.jpg",
+        cover:"../public/demo/team.webp",
         description:
         `
         A web application at the request of the employer 
@@ -37,7 +37,7 @@ export const demos = [
     {   
         id:Math.floor(Math.random() * 10000),
         title:"e-commerce website like digikala",
-        cover:"../public/demo/Ecommerce.png",
+        cover:"../public/demo/Ecommerce.webp",
         description:
         `
         An incomplete online store that has the necessary features for a store
@@ -51,7 +51,7 @@ using react.js
     {   
         id:Math.floor(Math.random() * 10000),
         title:"weather app",
-        cover:"../public/demo/weather.jpg",
+        cover:"../public/demo/weather.webp",
         description:
         `
         This web application is designed and 
