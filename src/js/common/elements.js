@@ -1,0 +1,1 @@
+export const demoContainer = document.querySelector(".demo-container");

@@ -38,6 +38,12 @@
   .about-detail{
     width: 100% !important;
   }
+  .demo-container{
+    grid-template-columns: 1fr !important;
+  }
+  .demo-cart{
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -61,6 +67,12 @@
   .skills .skills-description{
     flex-direction: column-reverse;
   }
+  .demo-container{
+    grid-template-columns: 1fr 1fr;
+  }
+  .demo-cart{
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -70,5 +82,22 @@
   }
   .about-detail{
     width: 50%;
+  }
+  .demo-container{
+    grid-template-columns: 1fr 1fr;
+  }
+  .demo-cart{
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1500px){
+  .demo-container{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .demo-cart{
+    max-height: 600px;
+    min-height: 500px;
+    height: max-content;
   }
 }
