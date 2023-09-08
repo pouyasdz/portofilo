@@ -1,9 +1,10 @@
 /* mobile */
-@media only screen and (max-width: 650px){
-  .navbar ul li a span{
+@media only screen and (max-width: 650px) {
+  /* header */
+  .navbar span {
     display: none;
   }
-  .navbar ul li{
+  .navbar i {
     background-color: #2b2d42;
     padding: 15px;
     display: flex;
@@ -12,19 +13,137 @@
     border-radius: 50%;
     color: white;
   }
-} 
+
+  /* container */
+  .container {
+    width: 90%;
+  }
+
+  /* profile */
+  .profile .title h1 {
+    font-size: 32px;
+  }
+  .profile .title #contact {
+    width: 150px;
+    text-align: center;
+  }
+  .profile {
+    flex-direction: column;
+    gap: 20px;
+    height: max-content;
+  }
+  .profile .profile-image {
+    width: 100%;
+    border-radius: 10px;
+    padding: 0;
+  }
+
+  /* about */
+  .about-description {
+    flex-direction: column;
+  }
+  .about-detail {
+    width: 100%;
+  }
+
+  /* skills */
+  .skills-description {
+    flex-direction: column-reverse;
+  }
+
+  /* contact-form */
+  .form{
+    width: 100%;
+  }
+
+  /* demo */
+  .demo-container{
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
 
 /* tablet */
-@media only screen and (min-width: 651px){
+@media only screen and (min-width: 651px) {
+  /* container */
+  .container {
+    width: 90%;
+  }
 
-} 
+  /* about */
+  .about-description {
+    flex-direction: column;
+  }
+  .about-detail {
+    width: 100%;
+  }
+
+  /* skills */
+
+  .skills-description {
+    flex-direction: column-reverse;
+  }
+
+  /* demo */
+  .demo-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+}
 
 /* laptop */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) {
+   /* container */
+   .container{
+    width: 80%;
+  }
 
+  /* about */
+  .about-description{
+    flex-direction: row;
+  }
+  .about-detail{
+    width: 100%;
+  }
+
+  /* skills */
+
+  .skills-description{
+    flex-direction: column-reverse;
+  }
+
+  /* demo */
+  .demo-container{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+  }
 }
 
 /* desktop */
-@media only screen and (min-width: 1400px){
+@media only screen and (min-width: 1400px) {
+     /* container */
+     .container{
+      width: 70%;
+    }
+  
+    /* about */
+    .about-description{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .about-detail{
+      width: 100%;
+    }
+  
+    /* skills */
+  
+    .skills-description{
+      flex-direction: row;
+    }
 
+    /* demo */
+  .demo-container{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+  }
 }

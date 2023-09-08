@@ -14,6 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 ul {
@@ -150,7 +151,7 @@ button:hover {
   animation: slide-in-fwd-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-.profile img {
+.profile .profile-image{
   border-radius: 50%;
   padding: 5px;
   background: rgb(58, 180, 173);
@@ -187,7 +188,7 @@ button:hover {
   color: #ef233c;
 }
 
-.title a {
+.title #contact {
   padding: 15px;
   color: white;
   background-color: #d90429;
@@ -196,7 +197,7 @@ button:hover {
   transition: background-color 0.5s;
 }
 
-.title a:hover {
+.title #contact:hover {
   background-color: #ef233c;
 }
 

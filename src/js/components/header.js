@@ -1,4 +1,6 @@
-const isIndex = window.location.href.includes("index.html");
+const location = window.location.href;
+const host = window.location.protocol + "//" + window.location.hostname + ":" + window.location.port + "/";
+const isIndex = location.includes("index.html") || location == host;
 
 export const header = `
 <nav class="navbar">
