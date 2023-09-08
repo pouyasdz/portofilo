@@ -1,103 +1,30 @@
-@media only screen and (max-width: 600px) {
-  .navbar span {
+/* mobile */
+@media only screen and (max-width: 650px){
+  .navbar ul li a span{
     display: none;
   }
-  .navbar i {
+  .navbar ul li{
     background-color: #2b2d42;
-    padding: 10px;
-    border-radius: 50%;
+    padding: 15px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    border-radius: 50%;
     color: white;
-    justify-content: center;
   }
-  .container {
-    padding-top: 100px !important;
-    padding: 15px;
-    width: 100%;
-  }
-  .profile {
-    flex-direction: column;
-    margin-top: 25px;
-    height: 100%;
-    gap: 25px;
-  }
-  .profile img {
-    border-radius: 0;
-    width: 100% !important;
-  }
-  .profile .information {
-    margin-top: 25px;
-  }
-  .title h1 {
-    font-size: 32px;
-  }
-  .skills .skills-description{
-    flex-direction: column-reverse;
-  }
-  .about-detail{
-    width: 100% !important;
-  }
-  .demo-container{
-    grid-template-columns: 1fr !important;
-  }
-  .demo-cart{
-    height: auto;
-  }
+} 
+
+/* tablet */
+@media only screen and (min-width: 651px){
+
+} 
+
+/* laptop */
+@media only screen and (min-width: 1024px){
+
 }
 
-@media only screen and (max-width: 800px) {
-  .container {
-    width: 80%;
-    padding-top: 100px;
-  }
-  .title h1 {
-    font-size: 25px;
-  }
-  .profile img{
-    width: 150px;
-  }
-  .about-description{
-    flex-direction: column;
-    justify-content: center;
-  }
-  .about-detail{
-    width: 100%;
-  }
-  .skills .skills-description{
-    flex-direction: column-reverse;
-  }
-  .demo-container{
-    grid-template-columns: 1fr 1fr;
-  }
-  .demo-cart{
-    height: auto;
-  }
-}
+/* desktop */
+@media only screen and (min-width: 1400px){
 
-@media only screen and (max-width: 1024px) {
-  .container {
-    width: 90%;
-    padding-top: 100px;
-  }
-  .about-detail{
-    width: 50%;
-  }
-  .demo-container{
-    grid-template-columns: 1fr 1fr;
-  }
-  .demo-cart{
-    height: auto;
-  }
-}
-
-@media only screen and (min-width: 1500px){
-  .demo-container{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .demo-cart{
-    max-height: 600px;
-    min-height: 500px;
-    height: max-content;
-  }
 }

@@ -354,40 +354,15 @@ button:hover {
   gap: 15px;
 }
 
-.demo-cart {
+.demo-cart{
   width: 100%;
   height: 400px;
-  background-color: #2b2d42;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
 }
 
 .demo-cart img{
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-    cursor: pointer;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.demo-cart .detail{
-    padding: 10px;
-    text-transform: capitalize;
-    cursor: pointer;
-    color: #ffffff;
-    gap: 15px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.demo-cart .detail span{
-  margin-top: auto;
-}
-
-.demo-cart .detail h3, .demo-cart .detail span{
-  color: #8ac926;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
 }
 
 @keyframes slide-in-fwd-center {
