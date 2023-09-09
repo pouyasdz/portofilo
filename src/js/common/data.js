@@ -19,7 +19,7 @@ export const demos = [
         description:"wordpress online shop using astara theme with demo an customize",
         galery:[""],
         status:"pending",
-        link:""
+        link:"#"
     },
     {   
         id:Math.floor(Math.random() * 10000),
@@ -46,7 +46,7 @@ using react.js
         `,
         galery:[""],
         status:"pending",
-        link:""
+        link:"https://github.com/pouyasdz/React-Store"
     },
     {   
         id:Math.floor(Math.random() * 10000),
@@ -60,7 +60,7 @@ using react.js
         `,
         galery:[""],
         status:"completed",
-        link:""
+        link:"https://github.com/pouyasdz/weather-app"
     },
     
 ]

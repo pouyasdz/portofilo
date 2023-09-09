@@ -1,9 +1,9 @@
 import { demos } from "./common/data.js";
 import { demoContainer } from "./common/elements.js";
 
-function demoCartElement(id, image, title, caption, status) {
+function demoCartElement(link, image, title, caption, status) {
   return`
-    <a href="#${id}">
+    <a href="${link}">
         <div class="demo-cart">
             <img src="${image}" alt="" loading="lazy">
             <div class="detail">
@@ -20,6 +20,6 @@ function demoCartElement(id, image, title, caption, status) {
 }
 
 demos.forEach((demo) => {
-    const {cover, description, id, title, status} = demo;
-    demoContainer.innerHTML += demoCartElement(id, cover, title, description, status);
+    const {cover, description, link, title, status} = demo;
+    demoContainer.innerHTML += demoCartElement(link, cover, title, description, status);
 })
