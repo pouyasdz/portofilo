@@ -148,7 +148,6 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  animation: slide-in-fwd-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .profile .profile-image{
@@ -364,6 +363,15 @@ button:hover {
   width: 100%;
   height: 220px;
   object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.animation-active{
+  animation: bounce 1s ease-in-out;
+}
+
+.fade-in-active{
+  animation: fade-in 1s ease;
 }
 
 @keyframes slide-in-fwd-center {
@@ -376,5 +384,25 @@ button:hover {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+	0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

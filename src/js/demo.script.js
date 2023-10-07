@@ -4,7 +4,7 @@ import { demoContainer } from "./common/elements.js";
 function demoCartElement(link, image, title, caption, status) {
   return`
     <a href="${link}">
-        <div class="demo-cart">
+        <div class="demo-cart fade-in-active">
             <img src="${image}" alt="" loading="lazy">
             <div class="detail">
                 <h3>${title}</h3>
